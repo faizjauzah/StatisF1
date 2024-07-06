@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
                 $_SESSION['loggedin'] = TRUE;
                 $_SESSION['name'] = $username;
                 $_SESSION['id'] = $admin_id;
-                header('Location: /statisf1/adminpage/index.php');
+                header('Location: ../adminpage/index.php');
             } else {
                 // Debugging: Password verification failed
                 error_log("Password verification failed");

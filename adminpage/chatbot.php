@@ -259,7 +259,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== TRUE) {
           <div class="modal-body">Pilih "Logout" jika sudah siap untuk mengakhiri sesi ini.</div>
           <div class="modal-footer">
             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-            <a class="btn btn-primary" href="/statisf1/userpage/index.php">Logout</a>
+            <a class="btn btn-primary" href="../userpage/index.php">Logout</a>
           </div>
         </div>
       </div>
